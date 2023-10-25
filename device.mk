@@ -35,13 +35,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0 \
-    mulch-webview
+    android.hidl.manager@1.0
+
 
 # Overlays
 PRODUCT_PACKAGES += \
     SonyBahamutFrameworksRes \
-    SonyBahamutSystemUIRes
+    SonyBahamutSystemUIRes \
+    mulch-webview
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
