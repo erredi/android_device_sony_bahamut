@@ -35,7 +35,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.manager@1.0 \
+    mulch-webview
 
 # Overlays
 PRODUCT_PACKAGES += \
