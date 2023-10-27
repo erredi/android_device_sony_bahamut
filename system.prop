@@ -1,0 +1,2 @@
+## LineageOS OTA from Github
+lineage.updater.uri=https://erredi.github.io/api/v1/{device}_{type}
