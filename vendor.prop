@@ -1,5 +1,2 @@
 # Bluetooth
 bluetooth.device.default_name=Xperia 5
-
-## LineageOS OTA from Github
-lineage.updater.uri=https://erredi.github.io/api/v1/{device}_{type}
